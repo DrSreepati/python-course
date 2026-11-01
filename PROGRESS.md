@@ -30,6 +30,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 4.6 Cleaning dirty text: extra spaces, mixed case, stray symbols (files: c1-ch04-4.6-cleaning-dirty-text-bangla.md, c1-ch04-4.6-cleaning-dirty-text-english.md, c1-ch04-4.6-cleaning-dirty-text.py, c1-ch04-4.6-cleaning-dirty-text-advanced.py)
 - [x] 4.7 Invoice/reference number parsing and code extraction (files: c1-ch04-4.7-invoice-code-parsing-bangla.md, c1-ch04-4.7-invoice-code-parsing-english.md, c1-ch04-4.7-invoice-code-parsing.py, c1-ch04-4.7-invoice-code-parsing-advanced.py)
 - [x] 5.1 if, and the indentation block (files: c1-ch05-5.1-if-and-indentation-bangla.md, c1-ch05-5.1-if-and-indentation-english.md, c1-ch05-5.1-if-and-indentation.py, c1-ch05-5.1-if-and-indentation-advanced.py)
+- [x] 5.2 if-else and if-elif-else (files: c1-ch05-5.2-if-else-bangla.md, c1-ch05-5.2-if-else-english.md, c1-ch05-5.2-if-else.py, c1-ch05-5.2-if-else-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -53,6 +54,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 4.6: c a b c a b c
 - 4.7: b b a b a b a
 - 5.1: c a b c a b c
+- 5.2: b a c b a c b
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -76,6 +78,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 4.6: all spaces removed from an invoice, destroying readable separators and leaving raw case unchanged
 - 4.7: invoice fields unpacked in the wrong order, silently assigning the serial to the year
 - 5.1: strict greater-than used at an inclusive discount threshold, excluding the exact boundary
+- 5.2: smaller threshold checked first, classifying a Gold order as Standard
 
 ## Advanced problem log
 
@@ -86,6 +89,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 4.6: customer comparison-key cleaning; invoice whitespace-case-separator workflow; visible intermediate cleaning stages; invoice format validation; field-specific audit summary
 - 4.7: customer-code field extraction; invoice cleaning and unpacking; validate-before-unpacking workflow; fixed-format slicing; audit-ready multi-code parsing summary
 - 5.1: inclusive discount threshold; named Boolean business rules; boundary-order audit; independent profit and payment checks; unconditional decision logging
+- 5.2: two-path discount decision; zero-first payment classification; ordered threshold categories; profit/loss/break-even classification; multi-rule discount review
 
 ## Story state
 
@@ -112,3 +116,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 4.6: What useful fields can we take from `"C-1023"` and `"INV-2024-007"`? This leads to 4.7.
 - Chapter 4 complete. Open thread for the Next Step seed of 4.7: How can Python decide which customer receives a discount? This leads to Chapter 5, subtopic 5.1.
 - Open thread for the Next Step seed of 5.1: What message should Python show when an order does not receive a discount? This leads to 5.2.
+- Open thread for the Next Step seed of 5.2: After a discount review passes, how can Python check the customer's balance separately? This leads to 5.3.
