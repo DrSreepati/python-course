@@ -24,6 +24,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 3.5 Assignment and bitwise operators, operator precedence (files: c1-ch03-3.5-assignment-bitwise-precedence-bangla.md, c1-ch03-3.5-assignment-bitwise-precedence-english.md, c1-ch03-3.5-assignment-bitwise-precedence.py)
 - [x] 4.1 Creating strings, indexing and negative indexing (files: c1-ch04-4.1-strings-indexing-bangla.md, c1-ch04-4.1-strings-indexing-english.md, c1-ch04-4.1-strings-indexing.py)
 - [x] 4.2 String slicing [start:stop:step] (files: c1-ch04-4.2-slicing-bangla.md, c1-ch04-4.2-slicing-english.md, c1-ch04-4.2-slicing.py, c1-ch04-4.2-slicing-advanced.py)
+- [x] 4.3 String methods 1: lower, upper, strip, replace, count (files: c1-ch04-4.3-string-methods-1-bangla.md, c1-ch04-4.3-string-methods-1-english.md, c1-ch04-4.3-string-methods-1.py, c1-ch04-4.3-string-methods-1-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -41,6 +42,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 3.5: b c b a c a c
 - 4.1: c a b c a b a
 - 4.2: a b c b a c b
+- 4.3: c a b c b a c
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -58,10 +60,12 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 3.5: `=+` used instead of `+=`, resetting a running total
 - 4.1: index 1 used for the first character, returning the second character
 - 4.2: stop boundary set one position too late, including an extra hyphen in the year
+- 4.3: replace(" ", "") removed the readable internal space between customer name words
 
 ## Advanced problem log
 
 - 4.2: fixed-format invoice field extraction; customer-code boundary extraction and reversal; three-invoice report without loops; reversed invoice serial; multi-reference management summary
+- 4.3: invoice standardisation with case and separator changes; outer-space cleaning while preserving internal spaces; case-insensitive customer matching; limited replacement and remaining-word count; customer display and comparison-key summary
 
 ## Story state
 
@@ -82,3 +86,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 3.5: How can we separate the parts of `"INV-2024-007"`? This leads to 4.1.
 - Open thread for the Next Step seed of 4.1: How can we take an invoice prefix and year together? This leads to 4.2.
 - Open thread for the Next Step seed of 4.2: How can we remove extra spaces from `"  rahim traders  "`? This leads to 4.3.
+- Open thread for the Next Step seed of 4.3: How can we split `"INV-2024-007"` into three parts using its hyphens? This leads to 4.4.
