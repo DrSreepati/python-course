@@ -29,6 +29,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 4.5 Immutability, building new strings (files: c1-ch04-4.5-immutability-bangla.md, c1-ch04-4.5-immutability-english.md, c1-ch04-4.5-immutability.py, c1-ch04-4.5-immutability-advanced.py)
 - [x] 4.6 Cleaning dirty text: extra spaces, mixed case, stray symbols (files: c1-ch04-4.6-cleaning-dirty-text-bangla.md, c1-ch04-4.6-cleaning-dirty-text-english.md, c1-ch04-4.6-cleaning-dirty-text.py, c1-ch04-4.6-cleaning-dirty-text-advanced.py)
 - [x] 4.7 Invoice/reference number parsing and code extraction (files: c1-ch04-4.7-invoice-code-parsing-bangla.md, c1-ch04-4.7-invoice-code-parsing-english.md, c1-ch04-4.7-invoice-code-parsing.py, c1-ch04-4.7-invoice-code-parsing-advanced.py)
+- [x] 5.1 if, and the indentation block (files: c1-ch05-5.1-if-and-indentation-bangla.md, c1-ch05-5.1-if-and-indentation-english.md, c1-ch05-5.1-if-and-indentation.py, c1-ch05-5.1-if-and-indentation-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -51,6 +52,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 4.5: a b c a b c a
 - 4.6: c a b c a b c
 - 4.7: b b a b a b a
+- 5.1: c a b c a b c
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -73,6 +75,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 4.5: direct assignment to a string slice caused a TypeError
 - 4.6: all spaces removed from an invoice, destroying readable separators and leaving raw case unchanged
 - 4.7: invoice fields unpacked in the wrong order, silently assigning the serial to the year
+- 5.1: strict greater-than used at an inclusive discount threshold, excluding the exact boundary
 
 ## Advanced problem log
 
@@ -82,6 +85,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 4.5: prefix replacement with slicing; known-year replacement; list-copy and serial update; formal display-name construction; audit-safe raw-to-corrected invoice workflow
 - 4.6: customer comparison-key cleaning; invoice whitespace-case-separator workflow; visible intermediate cleaning stages; invoice format validation; field-specific audit summary
 - 4.7: customer-code field extraction; invoice cleaning and unpacking; validate-before-unpacking workflow; fixed-format slicing; audit-ready multi-code parsing summary
+- 5.1: inclusive discount threshold; named Boolean business rules; boundary-order audit; independent profit and payment checks; unconditional decision logging
 
 ## Story state
 
@@ -107,3 +111,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 4.5: How can we clean spaces, case and unwanted symbols in one messy customer field? This leads to 4.6.
 - Open thread for the Next Step seed of 4.6: What useful fields can we take from `"C-1023"` and `"INV-2024-007"`? This leads to 4.7.
 - Chapter 4 complete. Open thread for the Next Step seed of 4.7: How can Python decide which customer receives a discount? This leads to Chapter 5, subtopic 5.1.
+- Open thread for the Next Step seed of 5.1: What message should Python show when an order does not receive a discount? This leads to 5.2.
