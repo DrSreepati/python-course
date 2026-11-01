@@ -12,7 +12,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 2.3 None: what it means and why it is not zero (files: c1-ch02-2.3-none-bangla.md, c1-ch02-2.3-none-english.md, c1-ch02-2.3-none.py)
 - [x] 2.4 type() and input(); reading user data (files: c1-ch02-2.4-type-input-bangla.md, c1-ch02-2.4-type-input-english.md, c1-ch02-2.4-type-input.py)
 - [x] 2.5 Type casting: int(), float(), str() (files: c1-ch02-2.5-type-casting-bangla.md, c1-ch02-2.5-type-casting-english.md, c1-ch02-2.5-type-casting.py)
-- [ ] 2.6 Money as data: the float problem (0.1 + 0.2 surprise)
+- [x] 2.6 Money as data: the float problem (0.1 + 0.2 surprise) (files: c1-ch02-2.6-money-float-bangla.md, c1-ch02-2.6-money-float-english.md, c1-ch02-2.6-money-float.py)
 - [ ] 2.7 Business data examples: percentage, quantity, unit price, amount; dates
 
 (Later chapters are appended here as the series reaches them, from SYLLABUS.md.)
@@ -24,6 +24,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 2.3: a b c b a c b
 - 2.4: c a b c a b c
 - 2.5: b c a b c a b
+- 2.6: a c b a c b a
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -32,6 +33,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 2.3: unknown balance replaced with zero using `balance or 0`
 - 2.4: input value used as a number without conversion, causing a TypeError
 - 2.5: word passed to int(), causing a ValueError
+- 2.6: exact float equality used for money comparison
 
 ## Story state
 
@@ -43,3 +45,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 2.3: If a user leaves a field blank, what type of value does Python read? This leads to 2.4.
 - Open thread for the Next Step seed of 2.4: How can `"6"` become a real integer quantity? This leads to 2.5.
 - Open thread for the Next Step seed of 2.5: Why can two small decimal values produce a surprising result? This leads to 2.6.
+- Open thread for the Next Step seed of 2.6: Should quantity, price, percentage, and date all use the same type? This leads to 2.7.
