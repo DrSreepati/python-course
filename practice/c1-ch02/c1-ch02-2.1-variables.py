@@ -1,6 +1,6 @@
 """Subtopic 2.1: Variables: creation, naming rules, assignment.
-Notes: notes/c1-ch02-variables-business-data-types-bangla.md
-       notes/c1-ch02-variables-business-data-types-english.md
+Notes: notes/c1-ch02-2.1-variables-bangla.md
+       notes/c1-ch02-2.1-variables-english.md
 """
 
 # Program 1: named business values
@@ -66,5 +66,5 @@ print(profit)  # Expected: 12000
 # Task 5 solution
 invoice_number = "INV-2024-007"
 print(invoice_number)  # Expected: INV-2024-007
-’’’
+'''
 # Change the values, save, and run this file again.
