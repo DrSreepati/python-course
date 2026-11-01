@@ -26,6 +26,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 4.2 String slicing [start:stop:step] (files: c1-ch04-4.2-slicing-bangla.md, c1-ch04-4.2-slicing-english.md, c1-ch04-4.2-slicing.py, c1-ch04-4.2-slicing-advanced.py)
 - [x] 4.3 String methods 1: lower, upper, strip, replace, count (files: c1-ch04-4.3-string-methods-1-bangla.md, c1-ch04-4.3-string-methods-1-english.md, c1-ch04-4.3-string-methods-1.py, c1-ch04-4.3-string-methods-1-advanced.py)
 - [x] 4.4 String methods 2: split, join, find, startswith, endswith (files: c1-ch04-4.4-string-methods-2-bangla.md, c1-ch04-4.4-string-methods-2-english.md, c1-ch04-4.4-string-methods-2.py, c1-ch04-4.4-string-methods-2-advanced.py)
+- [x] 4.5 Immutability, building new strings (files: c1-ch04-4.5-immutability-bangla.md, c1-ch04-4.5-immutability-english.md, c1-ch04-4.5-immutability.py, c1-ch04-4.5-immutability-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -45,6 +46,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 4.2: a b c b a c b
 - 4.3: c a b c b a c
 - 4.4: b c a b c a b
+- 4.5: a b c a b c a
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -64,12 +66,14 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 4.2: stop boundary set one position too late, including an extra hyphen in the year
 - 4.3: replace(" ", "") removed the readable internal space between customer name words
 - 4.4: split() used the wrong delimiter, leaving the full invoice as one list item
+- 4.5: direct assignment to a string slice caused a TypeError
 
 ## Advanced problem log
 
 - 4.2: fixed-format invoice field extraction; customer-code boundary extraction and reversal; three-invoice report without loops; reversed invoice serial; multi-reference management summary
 - 4.3: invoice standardisation with case and separator changes; outer-space cleaning while preserving internal spaces; case-insensitive customer matching; limited replacement and remaining-word count; customer display and comparison-key summary
 - 4.4: invoice separator conversion; customer-code boundary validation; clean-parse-rebuild invoice workflow; accepted file-extension check; multi-reference parsing and validation report
+- 4.5: prefix replacement with slicing; known-year replacement; list-copy and serial update; formal display-name construction; audit-safe raw-to-corrected invoice workflow
 
 ## Story state
 
@@ -92,3 +96,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 4.2: How can we remove extra spaces from `"  rahim traders  "`? This leads to 4.3.
 - Open thread for the Next Step seed of 4.3: How can we split `"INV-2024-007"` into three parts using its hyphens? This leads to 4.4.
 - Open thread for the Next Step seed of 4.4: How can we replace one middle character by building a new string? This leads to 4.5.
+- Open thread for the Next Step seed of 4.5: How can we clean spaces, case and unwanted symbols in one messy customer field? This leads to 4.6.
