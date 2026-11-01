@@ -20,6 +20,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 3.1 Arithmetic operators: +, -, *, /, //, %, ** (files: c1-ch03-3.1-arithmetic-operators-bangla.md, c1-ch03-3.1-arithmetic-operators-english.md, c1-ch03-3.1-arithmetic-operators.py)
 - [x] 3.2 Comparison and logical operators: ==, !=, >, <, >=, <=, and, or, not (files: c1-ch03-3.2-comparison-logical-operators-bangla.md, c1-ch03-3.2-comparison-logical-operators-english.md, c1-ch03-3.2-comparison-logical-operators.py)
 - [x] 3.3 Business formulas as code: sales, profit and margin (files: c1-ch03-3.3-business-formulas-bangla.md, c1-ch03-3.3-business-formulas-english.md, c1-ch03-3.3-business-formulas.py)
+- [x] 3.4 VAT/tax calculations and discount calculations (files: c1-ch03-3.4-vat-tax-discount-bangla.md, c1-ch03-3.4-vat-tax-discount-english.md, c1-ch03-3.4-vat-tax-discount.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -33,6 +34,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 3.1: c b a c b a c
 - 3.2: a b c b a c a
 - 3.3: a b a b c a a
+- 3.4: a b c a a b a
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -46,6 +48,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 3.1: floor division used for an average, silently dropping decimal precision
 - 3.2: strict greater-than used instead of greater-than-or-equal at a discount boundary
 - 3.3: cost used as the margin denominator instead of sales
+- 3.4: VAT calculated on gross instead of the discounted subtotal
 
 ## Story state
 
@@ -62,3 +65,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 3.1: How can Python decide whether a customer's order deserves a discount? This leads to 3.2.
 - Open thread for the Next Step seed of 3.2: How can sales, cost and profit produce a margin percentage? This leads to 3.3.
 - Open thread for the Next Step seed of 3.3: How can we calculate VAT and discount on one invoice? This leads to 3.4.
+- Open thread for the Next Step seed of 3.4: When + and * appear together, which one does Python calculate first? This leads to 3.5.
