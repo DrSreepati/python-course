@@ -22,6 +22,8 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 3.3 Business formulas as code: sales, profit and margin (files: c1-ch03-3.3-business-formulas-bangla.md, c1-ch03-3.3-business-formulas-english.md, c1-ch03-3.3-business-formulas.py)
 - [x] 3.4 VAT/tax calculations and discount calculations (files: c1-ch03-3.4-vat-tax-discount-bangla.md, c1-ch03-3.4-vat-tax-discount-english.md, c1-ch03-3.4-vat-tax-discount.py)
 - [x] 3.5 Assignment and bitwise operators, operator precedence (files: c1-ch03-3.5-assignment-bitwise-precedence-bangla.md, c1-ch03-3.5-assignment-bitwise-precedence-english.md, c1-ch03-3.5-assignment-bitwise-precedence.py)
+- [x] 4.1 Creating strings, indexing and negative indexing (files: c1-ch04-4.1-strings-indexing-bangla.md, c1-ch04-4.1-strings-indexing-english.md, c1-ch04-4.1-strings-indexing.py)
+- [x] 4.2 String slicing [start:stop:step] (files: c1-ch04-4.2-slicing-bangla.md, c1-ch04-4.2-slicing-english.md, c1-ch04-4.2-slicing.py, c1-ch04-4.2-slicing-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -37,6 +39,8 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 3.3: a b a b c a a
 - 3.4: a b c a a b a
 - 3.5: b c b a c a c
+- 4.1: c a b c a b a
+- 4.2: a b c b a c b
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -52,6 +56,12 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 3.3: cost used as the margin denominator instead of sales
 - 3.4: VAT calculated on gross instead of the discounted subtotal
 - 3.5: `=+` used instead of `+=`, resetting a running total
+- 4.1: index 1 used for the first character, returning the second character
+- 4.2: stop boundary set one position too late, including an extra hyphen in the year
+
+## Advanced problem log
+
+- 4.2: fixed-format invoice field extraction; customer-code boundary extraction and reversal; three-invoice report without loops; reversed invoice serial; multi-reference management summary
 
 ## Story state
 
@@ -70,3 +80,5 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 3.3: How can we calculate VAT and discount on one invoice? This leads to 3.4.
 - Open thread for the Next Step seed of 3.4: When + and * appear together, which one does Python calculate first? This leads to 3.5.
 - Open thread for the Next Step seed of 3.5: How can we separate the parts of `"INV-2024-007"`? This leads to 4.1.
+- Open thread for the Next Step seed of 4.1: How can we take an invoice prefix and year together? This leads to 4.2.
+- Open thread for the Next Step seed of 4.2: How can we remove extra spaces from `"  rahim traders  "`? This leads to 4.3.
