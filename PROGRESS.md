@@ -42,6 +42,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 6.6 Practice: transaction processing, invoice total, running balance, monthly expense summary (files: c1-ch06-6.6-business-practice-bangla.md, c1-ch06-6.6-business-practice-english.md, c1-ch06-6.6-business-practice.py, c1-ch06-6.6-business-practice-advanced.py)
 - [x] 7.1 Creating, indexing, and slicing lists (files: c1-ch07-7.1-list-basics-bangla.md, c1-ch07-7.1-list-basics-english.md, c1-ch07-7.1-list-basics.py, c1-ch07-7.1-list-basics-advanced.py)
 - [x] 7.2 Adding and removing list items (files: c1-ch07-7.2-list-add-remove-bangla.md, c1-ch07-7.2-list-add-remove-english.md, c1-ch07-7.2-list-add-remove.py, c1-ch07-7.2-list-add-remove-advanced.py)
+- [x] 7.3 sort, reverse, sorted, min, max, sum, len (files: c1-ch07-7.3-list-analysis-bangla.md, c1-ch07-7.3-list-analysis-english.md, c1-ch07-7.3-list-analysis.py, c1-ch07-7.3-list-analysis-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -77,6 +78,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 6.6: b c a b c a b
 - 7.1: a b c a b c a
 - 7.2: b c a b c a b
+- 7.3: c a b c a b c
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -112,6 +114,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 6.6: assigning a payment directly to balance, replacing the running state instead of subtracting
 - 7.1: using index 1 for the first sale, silently reporting the second day's sale
 - 7.2: using append with a whole customer batch, creating a nested list instead of separate customers
+- 7.3: assigning the result of sort(), receiving None instead of the sorted list
 
 ## Advanced problem log
 
@@ -133,6 +136,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 6.6: filtered transaction total; invoice line total; payment running balance; monthly grouped expense summary; combined management report
 - 7.1: indexed day lookup; opening and closing slices; reverse tail review; aligned customer and balance positions; fixed management list report
 - 7.2: invoice reference append; priority customer insert and batch extend; safe closed-customer removal; payment queue pop and urgent insert; active register maintenance
+- 7.3: descending sales copy; full sales statistics; customer balance ranking; preserved original report views; daily and weekly management summary
 - 5.5: discount and balance classification; overdue account classification; budget direction classification; independent profit and payment status; complete five-status business report
 
 ## Story state
@@ -172,3 +176,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Chapter 6 complete. Open thread for the Next Step seed of 6.6: How can a new item be added to a list? This leads to Chapter 7, subtopic 7.1.
 - Open thread for the Next Step seed of 7.1: How can a new customer be added to a list? This leads to 7.2.
 - Open thread for the Next Step seed of 7.2: How can we find the largest sale in an updated list? This leads to 7.3.
+- Open thread for the Next Step seed of 7.3: How can many customers' daily sales fit into a table? This leads to 7.4.
