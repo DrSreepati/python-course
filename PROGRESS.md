@@ -38,6 +38,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 6.2 for loop and range() (files: c1-ch06-6.2-for-range-bangla.md, c1-ch06-6.2-for-range-english.md, c1-ch06-6.2-for-range.py, c1-ch06-6.2-for-range-advanced.py)
 - [x] 6.3 for over sequences (string/list) (files: c1-ch06-6.3-sequences-bangla.md, c1-ch06-6.3-sequences-english.md, c1-ch06-6.3-sequences.py, c1-ch06-6.3-sequences-advanced.py)
 - [x] 6.4 break, continue, pass (files: c1-ch06-6.4-break-continue-pass-bangla.md, c1-ch06-6.4-break-continue-pass-english.md, c1-ch06-6.4-break-continue-pass.py, c1-ch06-6.4-break-continue-pass-advanced.py)
+- [x] 6.5 Nested loops (files: c1-ch06-6.5-nested-loops-bangla.md, c1-ch06-6.5-nested-loops-english.md, c1-ch06-6.5-nested-loops.py, c1-ch06-6.5-nested-loops-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -69,6 +70,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 6.2: b c a b c a b
 - 6.3: c a b c a b c
 - 6.4: a c b a c b a
+- 6.5: c a b c a b c
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -100,6 +102,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 6.2: manually updating a for-loop variable outside the loop, misunderstanding range-controlled iteration
 - 6.3: replacing an accumulator with the current item, reporting only the last sale
 - 6.4: using break to skip one zero payment, stopping the whole payment loop
+- 6.5: resetting or overwriting a nested group total incorrectly, reporting only the last invoice
 
 ## Advanced problem log
 
@@ -117,6 +120,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 6.2: inclusive invoice range; stepped month review; daily sales accumulator; reverse priority range; fixed business summary with two ranges
 - 6.3: invoice character scan; weekly taking total; customer balance classification; qualifying sales total; parallel customer report with combined balance
 - 6.4: urgent invoice stop; non-zero payment total; invalid reference skip with urgent stop; placeholder audit block; payment queue with skip, stop, and total
+- 6.5: customer and invoice pair grid; customer invoice totals; inner urgent stop; group and overall totals; complete nested invoice report
 - 5.5: discount and balance classification; overdue account classification; budget direction classification; independent profit and payment status; complete five-status business report
 
 ## Story state
@@ -152,3 +156,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 6.2: How can each daily sale value in a sequence be processed? This leads to 6.3.
 - Open thread for the Next Step seed of 6.3: How can a loop stop at an urgent invoice or skip a settled one? This leads to 6.4.
 - Open thread for the Next Step seed of 6.4: How can every invoice for every customer be checked with two loops? This leads to 6.5.
+- Open thread for the Next Step seed of 6.5: How can transactions, invoice totals, balances, and monthly expenses become one report? This leads to 6.6.
