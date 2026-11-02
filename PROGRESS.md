@@ -35,6 +35,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 5.4 Compound conditions in real rules (files: c1-ch05-5.4-compound-conditions-bangla.md, c1-ch05-5.4-compound-conditions-english.md, c1-ch05-5.4-compound-conditions.py, c1-ch05-5.4-compound-conditions-advanced.py)
 - [x] 5.5 Practice: business decision classification (files: c1-ch05-5.5-business-classification-bangla.md, c1-ch05-5.5-business-classification-english.md, c1-ch05-5.5-business-classification.py, c1-ch05-5.5-business-classification-advanced.py)
 - [x] 6.1 while loop and the loop variable (files: c1-ch06-6.1-while-loop-bangla.md, c1-ch06-6.1-while-loop-english.md, c1-ch06-6.1-while-loop.py, c1-ch06-6.1-while-loop-advanced.py)
+- [x] 6.2 for loop and range() (files: c1-ch06-6.2-for-range-bangla.md, c1-ch06-6.2-for-range-english.md, c1-ch06-6.2-for-range.py, c1-ch06-6.2-for-range-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -63,6 +64,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 5.4: a b c a b c a
 - 5.5: b c a b c a b
 - 6.1: a b c a b c a
+- 6.2: b c a b c a b
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -91,6 +93,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 5.4: using or where the discount policy required and, approving a small order with a healthy balance
 - 5.5: using >= 0 for profit, silently classifying break-even as profit
 - 6.1: forgetting to update the loop variable, creating an infinite invoice-check loop
+- 6.2: manually updating a for-loop variable outside the loop, misunderstanding range-controlled iteration
 
 ## Advanced problem log
 
@@ -105,6 +108,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 5.3: two-gate approval tree; nested payment-state classification; nested threshold categories; three-level profit approval; multi-record gated order review
 - 5.4: all-gates release rule; overdue rule with not; grouped manager-priority alternatives; named Boolean approval audit; fixed multi-customer compound report
 - 6.1: invoice counter loop; scheduled payment balance; outstanding collection loop; bounded review attempts; payment-plan running balance
+- 6.2: inclusive invoice range; stepped month review; daily sales accumulator; reverse priority range; fixed business summary with two ranges
 - 5.5: discount and balance classification; overdue account classification; budget direction classification; independent profit and payment status; complete five-status business report
 
 ## Story state
@@ -137,3 +141,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 5.4: How can one report classify discount, overdue, budget, profit and payment states? This leads to 5.5.
 - Chapter 5 complete. Open thread for the Next Step seed of 5.5: How can one condition run again for many transactions? This leads to Chapter 6, subtopic 6.1.
 - Open thread for the Next Step seed of 6.1: How can three report days be generated simply with for and range()? This leads to 6.2.
+- Open thread for the Next Step seed of 6.2: How can each daily sale value in a sequence be processed? This leads to 6.3.
