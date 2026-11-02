@@ -34,6 +34,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 5.3 Nested if (files: c1-ch05-5.3-nested-if-bangla.md, c1-ch05-5.3-nested-if-english.md, c1-ch05-5.3-nested-if.py, c1-ch05-5.3-nested-if-advanced.py)
 - [x] 5.4 Compound conditions in real rules (files: c1-ch05-5.4-compound-conditions-bangla.md, c1-ch05-5.4-compound-conditions-english.md, c1-ch05-5.4-compound-conditions.py, c1-ch05-5.4-compound-conditions-advanced.py)
 - [x] 5.5 Practice: business decision classification (files: c1-ch05-5.5-business-classification-bangla.md, c1-ch05-5.5-business-classification-english.md, c1-ch05-5.5-business-classification.py, c1-ch05-5.5-business-classification-advanced.py)
+- [x] 6.1 while loop and the loop variable (files: c1-ch06-6.1-while-loop-bangla.md, c1-ch06-6.1-while-loop-english.md, c1-ch06-6.1-while-loop.py, c1-ch06-6.1-while-loop-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -61,6 +62,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 5.3: c a b b c a b
 - 5.4: a b c a b c a
 - 5.5: b c a b c a b
+- 6.1: a b c a b c a
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -88,6 +90,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 5.3: missing an outer eligibility gate, approving a small order because the balance alone passed
 - 5.4: using or where the discount policy required and, approving a small order with a healthy balance
 - 5.5: using >= 0 for profit, silently classifying break-even as profit
+- 6.1: forgetting to update the loop variable, creating an infinite invoice-check loop
 
 ## Advanced problem log
 
@@ -101,6 +104,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 5.2: two-path discount decision; zero-first payment classification; ordered threshold categories; profit/loss/break-even classification; multi-rule discount review
 - 5.3: two-gate approval tree; nested payment-state classification; nested threshold categories; three-level profit approval; multi-record gated order review
 - 5.4: all-gates release rule; overdue rule with not; grouped manager-priority alternatives; named Boolean approval audit; fixed multi-customer compound report
+- 6.1: invoice counter loop; scheduled payment balance; outstanding collection loop; bounded review attempts; payment-plan running balance
 - 5.5: discount and balance classification; overdue account classification; budget direction classification; independent profit and payment status; complete five-status business report
 
 ## Story state
@@ -132,3 +136,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 5.3: How can order and balance rules be written together with and, or and not? This leads to 5.4.
 - Open thread for the Next Step seed of 5.4: How can one report classify discount, overdue, budget, profit and payment states? This leads to 5.5.
 - Chapter 5 complete. Open thread for the Next Step seed of 5.5: How can one condition run again for many transactions? This leads to Chapter 6, subtopic 6.1.
+- Open thread for the Next Step seed of 6.1: How can three report days be generated simply with for and range()? This leads to 6.2.
