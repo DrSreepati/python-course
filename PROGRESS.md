@@ -52,6 +52,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 8.2 Tuple unpacking; tuple versus list, when to use which (files: c1-ch08-8.2-tuple-unpacking-bangla.md, c1-ch08-8.2-tuple-unpacking-english.md, c1-ch08-8.2-tuple-unpacking.py, c1-ch08-8.2-tuple-unpacking-advanced.py)
 - [x] 8.3 Set: creation, uniqueness, add, remove (files: c1-ch08-8.3-set-basics-bangla.md, c1-ch08-8.3-set-basics-english.md, c1-ch08-8.3-set-basics.py, c1-ch08-8.3-set-basics-advanced.py)
 - [x] 8.4 Set operations: union, intersection, difference, symmetric difference (files: c1-ch08-8.4-set-operations-bangla.md, c1-ch08-8.4-set-operations-english.md, c1-ch08-8.4-set-operations.py, c1-ch08-8.4-set-operations-advanced.py)
+- [x] 8.5 Practical uses: duplicate invoice detection, unique customer/product IDs, category comparison (files: c1-ch08-8.5-practical-set-uses-bangla.md, c1-ch08-8.5-practical-set-uses-english.md, c1-ch08-8.5-practical-set-uses.py, c1-ch08-8.5-practical-set-uses-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -97,6 +98,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 8.2: a c b a c b a
 - 8.3: b c a b a c b
 - 8.4: a b a b b a c
+- 8.5: c a b c a b c
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -142,6 +144,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 8.2: unpacking a three-field customer record into only two variables, causing ValueError
 - 8.3: indexing a set to obtain a first invoice, causing TypeError
 - 8.4: using union instead of intersection for matched invoices, returning every unique invoice
+- 8.5: using len(rows) instead of len(set(rows)) for a unique invoice count
 
 ## Advanced problem log
 
@@ -170,6 +173,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 7.7: alias mutation demonstration; independent slice correction; reference-versus-copy audit comparison; three-version weekly report; nested outer-copy warning
 - 7.8: row-by-row matrix copy; audit table correction with new row; immutable invoice correction; copied customer-row adjustment; dual-total management table
 - 8.4: common invoice matching; sales-only difference; branch customer comparison; four-part reconciliation report; three-register exception analysis
+- 8.5: unique invoice count; first-repeat duplicate report; branch customer comparison; order-preserving deduplication; three-branch category analysis
 
 - 8.1: fixed invoice field selection; approved-summary slicing; immutable invoice replacement; tuple customer audit lines; immutable management snapshot
 - 8.2: invoice field repacking; star-unpacked daily sales; fixed customer audit records; tuple status with changing list; complete unpacked management report
@@ -223,3 +227,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 8.2: How can Python keep only one copy of repeated invoice or customer IDs? This leads to 8.3.
 - Open thread for the Next Step seed of 8.3: How can two business groups be compared to find shared and separate IDs? This leads to 8.4.
 - Open thread for the Next Step seed of 8.4: How can Python detect a repeated invoice? This leads to 8.5.
+- Chapter 8 complete. Open thread for the Next Step seed of 8.5: How can an invoice number connect to a customer and sales amount? This leads to Chapter 9, subtopic 9.1.
