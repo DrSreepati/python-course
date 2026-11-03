@@ -48,6 +48,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 7.6 List comprehension, basic (files: c1-ch07-7.6-list-comprehension-bangla.md, c1-ch07-7.6-list-comprehension-english.md, c1-ch07-7.6-list-comprehension.py, c1-ch07-7.6-list-comprehension-advanced.py)
 - [x] 7.7 Copy vs reference, aliasing (files: c1-ch07-7.7-copy-reference-bangla.md, c1-ch07-7.7-copy-reference-english.md, c1-ch07-7.7-copy-reference.py, c1-ch07-7.7-copy-reference-advanced.py)
 - [x] 7.8 Shallow copy, nested-list copying, mutable versus immutable (files: c1-ch07-7.8-shallow-copy-bangla.md, c1-ch07-7.8-shallow-copy-english.md, c1-ch07-7.8-shallow-copy.py, c1-ch07-7.8-shallow-copy-advanced.py)
+- [x] 8.1 Tuple: creation, indexing, slicing, immutability (files: c1-ch08-8.1-tuple-basics-bangla.md, c1-ch08-8.1-tuple-basics-english.md, c1-ch08-8.1-tuple-basics.py, c1-ch08-8.1-tuple-basics-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -89,6 +90,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 7.6: c a b c a b c
 - 7.7: a b c a c b a
 - 7.8: a c b a c b a
+- 8.1: b c a c b a c
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -130,6 +132,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 7.6: using a final filtering condition when the report required every item
 - 7.7: assigning a working report directly to the original, so a pop silently changed audit data
 - 7.8: copying only the outer table, so editing a shared inner row changed the audit table
+- 8.1: assigning a new amount directly into an immutable tuple item, causing TypeError
 
 ## Advanced problem log
 
@@ -157,6 +160,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 7.6: invoice-charge transformation; target-sale filtering; indexed taking labels; balance status labelling; two-list management classification
 - 7.7: alias mutation demonstration; independent slice correction; reference-versus-copy audit comparison; three-version weekly report; nested outer-copy warning
 - 7.8: row-by-row matrix copy; audit table correction with new row; immutable invoice correction; copied customer-row adjustment; dual-total management table
+- 8.1: fixed invoice field selection; approved-summary slicing; immutable invoice replacement; tuple customer audit lines; immutable management snapshot
 - 5.5: discount and balance classification; overdue account classification; budget direction classification; independent profit and payment status; complete five-status business report
 
 ## Story state
@@ -202,3 +206,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 7.6: Why can two names refer to the same list after assignment? This leads to 7.7.
 - Open thread for the Next Step seed of 7.7: Why can a nested table still share inner rows after an outer copy? This leads to 7.8.
 - Chapter 7 complete. Open thread for the Next Step seed of 7.8: Why might fixed business data be safer in a tuple than in a list? This leads to Chapter 8, subtopic 8.1.
+- Open thread for the Next Step seed of 8.1: How can tuple values move into separate variable names, and when is a list better? This leads to 8.2.
