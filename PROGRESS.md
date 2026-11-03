@@ -46,6 +46,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 7.4 Nested lists, tables and matrices (files: c1-ch07-7.4-nested-lists-bangla.md, c1-ch07-7.4-nested-lists-english.md, c1-ch07-7.4-nested-lists.py, c1-ch07-7.4-nested-lists-advanced.py)
 - [x] 7.5 Loops and enumerate on lists (files: c1-ch07-7.5-enumerate-bangla.md, c1-ch07-7.5-enumerate-english.md, c1-ch07-7.5-enumerate.py, c1-ch07-7.5-enumerate-advanced.py)
 - [x] 7.6 List comprehension, basic (files: c1-ch07-7.6-list-comprehension-bangla.md, c1-ch07-7.6-list-comprehension-english.md, c1-ch07-7.6-list-comprehension.py, c1-ch07-7.6-list-comprehension-advanced.py)
+- [x] 7.7 Copy vs reference, aliasing (files: c1-ch07-7.7-copy-reference-bangla.md, c1-ch07-7.7-copy-reference-english.md, c1-ch07-7.7-copy-reference.py, c1-ch07-7.7-copy-reference-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -85,6 +86,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 7.4: a b c a b c a
 - 7.5: b c a b c a b
 - 7.6: c a b c a b c
+- 7.7: a b c a c b a
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -124,6 +126,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 7.4: resetting the grand total inside the row loop, reporting only the final row
 - 7.5: using enumerate's default zero-based label for a customer-facing business day report
 - 7.6: using a final filtering condition when the report required every item
+- 7.7: assigning a working report directly to the original, so a pop silently changed audit data
 
 ## Advanced problem log
 
@@ -149,6 +152,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 7.4: nested cell lookup; customer row totals; complete matrix grand total; column totals; full customer and day management matrix report
 - 7.5: indexed daily sales labels; invoice review numbering; aligned customer balances; nested customer-day labels; complete indexed management report
 - 7.6: invoice-charge transformation; target-sale filtering; indexed taking labels; balance status labelling; two-list management classification
+- 7.7: alias mutation demonstration; independent slice correction; reference-versus-copy audit comparison; three-version weekly report; nested outer-copy warning
 - 5.5: discount and balance classification; overdue account classification; budget direction classification; independent profit and payment status; complete five-status business report
 
 ## Story state
@@ -192,3 +196,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 7.4: How can a sale value and its day number arrive together in a loop? This leads to 7.5.
 - Open thread for the Next Step seed of 7.5: How can a loop expression create a new list from selected sales? This leads to 7.6.
 - Open thread for the Next Step seed of 7.6: Why can two names refer to the same list after assignment? This leads to 7.7.
+- Open thread for the Next Step seed of 7.7: Why can a nested table still share inner rows after an outer copy? This leads to 7.8.
