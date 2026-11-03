@@ -45,6 +45,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - [x] 7.3 sort, reverse, sorted, min, max, sum, len (files: c1-ch07-7.3-list-analysis-bangla.md, c1-ch07-7.3-list-analysis-english.md, c1-ch07-7.3-list-analysis.py, c1-ch07-7.3-list-analysis-advanced.py)
 - [x] 7.4 Nested lists, tables and matrices (files: c1-ch07-7.4-nested-lists-bangla.md, c1-ch07-7.4-nested-lists-english.md, c1-ch07-7.4-nested-lists.py, c1-ch07-7.4-nested-lists-advanced.py)
 - [x] 7.5 Loops and enumerate on lists (files: c1-ch07-7.5-enumerate-bangla.md, c1-ch07-7.5-enumerate-english.md, c1-ch07-7.5-enumerate.py, c1-ch07-7.5-enumerate-advanced.py)
+- [x] 7.6 List comprehension, basic (files: c1-ch07-7.6-list-comprehension-bangla.md, c1-ch07-7.6-list-comprehension-english.md, c1-ch07-7.6-list-comprehension.py, c1-ch07-7.6-list-comprehension-advanced.py)
 
 ## Quiz keys used (never repeat the previous note's full answer pattern)
 
@@ -83,6 +84,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 7.3: c a b c a b c
 - 7.4: a b c a b c a
 - 7.5: b c a b c a b
+- 7.6: c a b c a b c
 
 ## Rafiq bhai bug log (one new bug species per note; no species repeats)
 
@@ -121,6 +123,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 7.3: assigning the result of sort(), receiving None instead of the sorted list
 - 7.4: resetting the grand total inside the row loop, reporting only the final row
 - 7.5: using enumerate's default zero-based label for a customer-facing business day report
+- 7.6: using a final filtering condition when the report required every item
 
 ## Advanced problem log
 
@@ -145,6 +148,7 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - 7.3: descending sales copy; full sales statistics; customer balance ranking; preserved original report views; daily and weekly management summary
 - 7.4: nested cell lookup; customer row totals; complete matrix grand total; column totals; full customer and day management matrix report
 - 7.5: indexed daily sales labels; invoice review numbering; aligned customer balances; nested customer-day labels; complete indexed management report
+- 7.6: invoice-charge transformation; target-sale filtering; indexed taking labels; balance status labelling; two-list management classification
 - 5.5: discount and balance classification; overdue account classification; budget direction classification; independent profit and payment status; complete five-status business report
 
 ## Story state
@@ -187,3 +191,4 @@ Course 1, Chapter 1 (Python Environment) is skipped: the learner already works i
 - Open thread for the Next Step seed of 7.3: How can many customers' daily sales fit into a table? This leads to 7.4.
 - Open thread for the Next Step seed of 7.4: How can a sale value and its day number arrive together in a loop? This leads to 7.5.
 - Open thread for the Next Step seed of 7.5: How can a loop expression create a new list from selected sales? This leads to 7.6.
+- Open thread for the Next Step seed of 7.6: Why can two names refer to the same list after assignment? This leads to 7.7.
